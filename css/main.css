@@ -8,6 +8,17 @@
         width: 1130px !important;
     }
 }
+.seyf{
+   display: none;
+    visibility: hidden;
+    position: absolute;
+    left: -1000;
+}
+#name{
+    color: white;
+    font-weight: bold;
+    line-height: 100%;
+}
 
 #preloader {
     position: fixed;
@@ -223,7 +234,7 @@ h2.resp-tab-title:last-child {
     border-bottom: none;
 }
 
-.resp-vtabs .resp-tabs-container {	
+.resp-vtabs .resp-tabs-container {  
     padding: 0;
     background-color: #f4f4f4;
     float: left;
@@ -554,7 +565,7 @@ h2.resp-accordion:hover {
     height: 580px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
-    box-sizing:border-box;		
+    box-sizing:border-box;      
 }
 
 /*--------------------------------------------------
@@ -568,7 +579,7 @@ h2.resp-accordion:hover {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
-    transition: all 1s ease;	
+    transition: all 1s ease;    
 }
 
 #filters {
@@ -586,7 +597,7 @@ h2.resp-accordion:hover {
 
 #filters li span {
     display: block;
-    padding:5px 20px;		
+    padding:5px 20px;       
     text-decoration:none;
     color:#fff;
     cursor: pointer;
@@ -665,7 +676,7 @@ h2.resp-accordion:hover {
     #portfoliolist .portfolio {
         width:48%;
         margin:1%;
-    }	
+    }   
 
     .widget-profil,
     .flexy_content {
@@ -1032,10 +1043,10 @@ ul.about {
 @media only screen and (min-width: 1200px) {
 
     .widget-profil #profile_social a{ 
-        width: 45px;	
-        height: 45px;	
-        line-height: 45px;	
-        font-size: 24px;	
+        width: 45px;    
+        height: 45px;   
+        line-height: 45px;  
+        font-size: 24px;    
     }
     .widget-profil h1 {
         font-size: 25px;
@@ -1046,10 +1057,10 @@ ul.about {
 @media only screen and (max-width: 1199px) {
 
     .widget-profil #profile_social a { 
-        width: 34px;	
-        height: 34px;	
-        line-height: 34px;	
-        font-size: 20px;	
+        width: 34px;    
+        height: 34px;   
+        line-height: 34px;  
+        font-size: 20px;    
     }
 
     .widget-profil h1 {
@@ -1069,7 +1080,7 @@ ul.about {
         font-size: 13px !important;
     }
 
-    .widget-profil{ 	
+    .widget-profil{     
         height: 265px !important;
         margin-bottom: 20px;
         float: none;
@@ -1083,7 +1094,7 @@ ul.about {
 }
 
 @media only screen  and (max-width: 766px) {
-    .widget-profil{ 	
+    .widget-profil{     
         height: 285px !important;
         margin-bottom: 20px;
         float: none;
@@ -1106,7 +1117,7 @@ ul.about {
 }
 
 @media only screen and (min-width : 766px) and (max-width: 800px) {
-    .widget-profil{ 	
+    .widget-profil{     
         height: 210px !important;
         margin-bottom: 20px;
         float: none;
@@ -1125,8 +1136,8 @@ ul.about {
 
 @media only screen and (min-width : 800px) and (max-width : 991px) {
 
-    .widget-profil{ 	
-        height: 210px !important;	
+    .widget-profil{     
+        height: 210px !important;   
         margin-bottom: 20px;
         float: none;
     }
@@ -1361,7 +1372,7 @@ ul.about {
     float: left;
     overflow: hidden;
     position: relative;
-	/* height: 205px;*/
+    /* height: 205px;*/
 }
 
 .blog-article:first-child .media {
@@ -2299,7 +2310,7 @@ ul.info-post li {
 @media screen and (max-width: 600px) {
     .cb-slideshow li div h3 {
         font-size: 50px
-    }		
+    }       
 
     #services .pack-service {
         width: 100% !important;
@@ -2659,7 +2670,7 @@ li h6{
     font-size: 13px;
 }
 .panel{
-    border:none !important;	
+    border:none !important; 
 }
 
 #services .pack-service {
@@ -2733,7 +2744,7 @@ li h6{
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);	
+    transform: rotate(-45deg);  
     -webkit-transform-origin: 0 100%;
     -moz-transform-origin: 0 100%;
     -ms-transform-origin: 0 100%;
