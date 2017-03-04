@@ -272,7 +272,7 @@ jQuery(document).ready(function($) {
             title: 'Marker with InfoWindow',
             icon: 'images/pins-map/map-marker.png',
             infoWindow: {
-                content: '<p>Melbourne Victoria, 300, Australia</p>'
+                content: '<p>Tunis, Tunisie</p>'
             }
         });
     }
