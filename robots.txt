@@ -1,0 +1,8 @@
+User-agent: googlebot 
+Disallow: /images
+Disallow: /css
+Disallow: /js
+Disallow: /fonts
+
+
+URL:http://seifchakroun.me
