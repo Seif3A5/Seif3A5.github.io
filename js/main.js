@@ -263,17 +263,14 @@ jQuery(document).ready(function($) {
             div: '#map',
             lat: 36.50,
             lng: 10.11,
-            zoom: 7
+           zoom: 7
 
         });
-        map.addMarker({
+      map.addMarker({
             lat: 36.50,
             lng: 10.11,
             title: 'Marker with InfoWindow',
-            icon: 'images/pins-map/map-marker.png',
-            infoWindow: {
-                content: '<p>Tunis, Tunisie</p>'
-            }
+            icon: 'images/pins-map/map-marker.png'
         });
     }
 

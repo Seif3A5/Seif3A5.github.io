@@ -13,6 +13,11 @@
         <meta name="keywords" content="cv developpeur web, cv full stack developpeur, développeur systéme embarqué, ingénieur informatique,embedded software developer,engineer,ingénieur tunisie ,seif chakroun cv,cv developpeur systéme embarqué">
         <meta name="description" content="Front &amp; back end web developer, developpeur web ,nodejs developer,angularjs developer,engineer tunisia, ingénieur informatique ,developpeur systéme embarqué, embedded software developer, web freelance developer , JAVA developer , cv mean stack , esprit engineer , embedded firemware  "/>
 
+
+        <!-- <link rel="stylesheet" type="/maps/documentation/javascript/demos/demos.css"> -->
+
+
+        </style>
         <!-- CSS | bootstrap -->
         <!-- Credits: http://getbootstrap.com/ -->
         <link  rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -85,7 +90,7 @@
 
     </head>
 
-    <body>
+    <body onload="initialize()">
 
         <!--[if lt IE 7]>
                 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -828,7 +833,8 @@
 
                                             <div class="col-lg-12">
                                                 <div id="map"></div>
-                                            </div>  
+                                            </div> 
+                                         
 
                                             <div class="col-lg-12">
                                                 <div class="row" id="contact-user">
@@ -847,7 +853,7 @@
                                                                 <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Teléphone:</span> +123 54 817 902</li>
                                                                 <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.seifchakroun.me</li>
                                                                 <li><span class="span-info"><i class="glyphicon glyphicon-comment"></i> Skype:</span> Seif.chakroun</li>
-                                                                <li><span class="span-info"><i class="glyphicon glyphicon-thumbs-up"></i> G. Drive:</span> Seifeddinechakroun@gmail.com</li>
+                                                                <li><span class="span-info"><i class="glyphicon glyphicon-thumbs-up"></i> G. Drive:</span> Seifeddine.chakroun@gmail.com</li>
                                                            
                                                             </ul>
                                                         </div>
@@ -1100,8 +1106,15 @@
 
         <!-- Js | gmaps -->
         <!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
+
+
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script type="text/javascript" src="js/gmaps.min.js"></script>
+
+              <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-Xej081U7FMSJ0-sTAK6PPxDqr5Z6yhM&callback=initialize()">
+    </script> 
+
+       <script type="text/javascript" src="js/gmaps.min.js"></script>   
 
         <!-- Js | Js -->
         <!-- Credits: http://themeforest.net/user/FlexyCodes -->
@@ -1161,6 +1174,17 @@
                 imageOne.setImageDirection();
 
             }
+
+
+           function initialize() {
+           Create a map object and specify the DOM element for display.
+                var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 36.50, lng: 10.11},
+                scrollwheel: false,
+                zoom: 8
+                });
+            }
+      
 
         </script>
 
