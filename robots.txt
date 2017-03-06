@@ -3,4 +3,3 @@ Disallow: /images
 Disallow: /css
 Disallow: /js
 Disallow: /fonts
-URL:http://www.seifchakroun.me
