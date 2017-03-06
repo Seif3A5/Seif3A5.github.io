@@ -1,5 +1,13 @@
+# robots.txt generated at http://www.mcanerin.com
+Sitemap: http://www.seifchakroun.me/sitemap.xml
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-image
+Disallow: 
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: MSNBot
+Disallow: /
 User-agent: *
-Disallow: /images
-Disallow: /css
-Disallow: /fonts
-Allow: / 
+Disallow: 
+Disallow: /cgi-bin/
