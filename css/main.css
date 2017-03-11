@@ -8,6 +8,14 @@
         width: 1130px !important;
     }
 }
+
+
+#hiden{
+display: none;
+visibility: hidden;    
+}
+
+
 .seyf{
    display: none;
     visibility: hidden;
