@@ -261,14 +261,14 @@ jQuery(document).ready(function($) {
     function initialize() {
         map = new GMaps({
             div: '#map',
-            lat: 36.50,
-            lng: 10.11,
-           zoom: 7
+            lat: 36.8053231,
+            lng: 10.1517128,
+           zoom: 13.17
 
         });
       map.addMarker({
-            lat: 36.50,
-            lng: 10.11,
+            lat: 36.8053231,
+            lng: 10.1517128,
             title: 'Marker with InfoWindow',
             icon: 'images/pins-map/map-marker.png'
         });
